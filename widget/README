@@ -1,0 +1,8 @@
+1、获得computed的数据，要用this.item。而不是this.data.item。
+2、如果v-if 感觉不生效，要写成 v-if={this.data.item} 而不是 v-if={item}
+3、报错：v-if directive error: TypeError: Property expression of ExpressionStatement expected node to be of a type ["Expression"] but instead got "JSXExpressionContainer"
+可能是在<safe-area>使用了v-if
+4、双重for循环报：
+[WARN] Tools.Todsl.no container! with handle v-for directive near '(_item, _index) in item$1.list'  +2ms
+[ERROR] Tools.Todsl.handle v-for directive error: ReferenceError: Container is falsy  +0ms
+5、picker onchage事件里没法从e.currentTarget.dataset['strategy-id']获取数据，可以直接给<picker strategy-id="11222">，然后取值e.currentTarget.attributes['strategy-id']

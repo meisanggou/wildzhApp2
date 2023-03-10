@@ -1,0 +1,24 @@
+<template>
+	
+</template>
+<script>
+export default {
+	name: 'answer',
+	apiready(){//like created
+
+	},
+	data() {
+		return{
+
+		}
+	},
+	methods: {
+
+	}
+}
+</script>
+<style>
+	.page {
+		height: 100%;
+	}
+</style>

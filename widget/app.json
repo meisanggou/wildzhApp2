@@ -1,0 +1,63 @@
+{
+  "name": "root",
+  "tabBar": {
+    "frames": [
+      {
+        "title": "专升本经济学刷题",
+        "name": "training",
+        "url": "./pages/training/index"
+      },
+      {
+        "title": "专升本经济学刷题",
+        "name": "answer",
+        "url": "./pages/answer/index"
+      },
+      {
+        "title": "专升本经济学刷题",
+        "name": "vc",
+        "url": "./pages/vc/goods"
+      },
+      {
+        "title": "专升本经济学刷题",
+        "name": "query",
+        "url": "./pages/query/query"
+      },
+      {
+        "title": "专升本经济学刷题",
+        "name": "me",
+        "url": "./pages/me/me"
+      }
+    ],
+    "list": [
+      {
+        "iconPath": "images/icon/practise.png",
+        "selectedIconPath": "images/icon/practise_fill.png",
+        "text": "练习"
+      },
+      {
+        "iconPath": "images/icon/exam.png",
+        "selectedIconPath": "images/icon/exam_fill.png",
+        "text": "测试"
+      },
+      {
+        "iconPath": "images/icon/vc.png",
+        "selectedIconPath": "images/icon/vc_fill.png",
+        "text": "积分"
+      },
+      {
+        "iconPath": "images/icon/query.png",
+        "selectedIconPath": "images/icon/query_fill.png",
+        "text": "搜题"
+      },
+      {
+        "iconPath": "images/icon/me.png",
+        "selectedIconPath": "images/icon/me-fill.png",
+        "text": "我"
+      }
+    ],
+    "textOffset": 6,
+    "color": "#999999",
+    "selectedColor": "#333333",
+    "scrollEnabled": false
+  }
+}
